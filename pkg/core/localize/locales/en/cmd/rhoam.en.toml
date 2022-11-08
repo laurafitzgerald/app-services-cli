@@ -1,0 +1,60 @@
+[rhoam.cmd.shortDescription]
+description = "Short description for command"
+one = "Generate yaml for rhoam objects"
+
+[rhoam.cmd.longDescription]
+description = "Long description for command"
+one ='''
+Generate yaml for rhoam object
+
+
+'''
+[rhoam.cmd.example]
+description = "Examples for command"
+one = '''
+# Generate a Tenant
+rhoas rhoam generete tenant --name my-tenant-name
+'''
+
+
+[rhoam.generate.cmd.shortDescription]
+description = "Short description for command"
+one ='''
+# TODO
+'''
+
+
+[rhoam.generate.cmd.longDescription]
+description = "Short description for command"
+one ='''
+# TODO
+'''
+
+
+[rhoam.generate.cmd.example]
+description = "Short description for command"
+one ='''
+# TODO
+'''
+
+[rhoam.generate.flag.name.description]
+description = "Short description for flag"
+one ='''
+# TODO
+'''
+
+[rhoam.generate.flag.url.description]
+descritpion = "Short description for command"
+one = '''
+Base URL of the private API.
+'''
+[rhoam.generate.flag.systemName.description]
+descritpion = "Short description for command"
+one = '''
+Identifier used for internal purposes.
+'''
+[rhoam.generate.flag.env.description]
+descritpion = "Short description for command"
+one = '''
+Environment for apicast {staging|production}
+'''

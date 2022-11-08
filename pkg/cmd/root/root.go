@@ -3,6 +3,7 @@ package root
 import (
 	"github.com/redhat-developer/app-services-cli/pkg/cmd/cluster"
 	"github.com/redhat-developer/app-services-cli/pkg/cmd/completion"
+	"github.com/redhat-developer/app-services-cli/pkg/cmd/rhoam"
 
 	"github.com/redhat-developer/app-services-cli/pkg/cmd/connector"
 	"github.com/redhat-developer/app-services-cli/pkg/cmd/context"
@@ -55,6 +56,7 @@ func NewRootCommand(f *factory.Factory, version string) *cobra.Command {
 	cmd.AddCommand(whoami.NewWhoAmICmd(f))
 	cmd.AddCommand(cliversion.NewVersionCmd(f))
 	cmd.AddCommand(token.NewAuthTokenCmd(f))
+	cmd.AddCommand(rhoam.NewRHOAMCommand(f))
 	// Registry commands
 	cmd.AddCommand(registry.NewServiceRegistryCommand(f))
 	cmd.AddCommand(connector.NewConnectorsCommand(f))

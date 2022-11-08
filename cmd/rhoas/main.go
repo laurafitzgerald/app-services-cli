@@ -3,11 +3,11 @@ package main
 import (
 	"context"
 	"fmt"
+	"github.com/redhat-developer/app-services-cli/pkg/core/cmdutil"
 	"os"
 	"strings"
 
 	"github.com/redhat-developer/app-services-cli/pkg/cmd/root"
-	"github.com/redhat-developer/app-services-cli/pkg/core/cmdutil"
 	"github.com/redhat-developer/app-services-cli/pkg/core/cmdutil/flagutil"
 	"github.com/redhat-developer/app-services-cli/pkg/core/servicecontext"
 
